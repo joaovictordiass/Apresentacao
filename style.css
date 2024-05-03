@@ -13,7 +13,7 @@
     --bg-color: #080808;
     --second-bg-color: #131313;
     --text-color: white;
-    --main-color: #00ffee;
+    --main-color: #007FAB;
 }
 
 /* ACIMA REVISADO! */
@@ -130,7 +130,7 @@ span {
 .home-img img {
     position: relative;
     top: 3rem;
-    width: 32vw;
+    width: 27vw;
     border-radius: 50%;
     box-shadow: 0 0 25px var(--main-color);
     cursor: pointer;
@@ -495,9 +495,8 @@ span {
 }
 
 .testimonial-box img {
-    width: 15rem;
-    border-radius: 50%;
-    border: 3px solid var(--main-color);
+    width: 30rem;
+    border-radius: 5%;
     box-shadow: 0 0 25px var(--main-color);
 }
 
