@@ -255,12 +255,12 @@ span {
 
     21%,
     40% {
-        content: "Web Designer";
+        content: "Web Developer";
     }
 
     41%,
     60% {
-        content: "UI / UX Designer";
+        content: "FrontEnd Designer";
     }
 
     61%,
@@ -270,7 +270,7 @@ span {
 
     81%,
     100% {
-        content: "Software Tester";
+        content: "FrontEnd Designer";
     }
 }
 
@@ -463,7 +463,7 @@ span {
 }
 
 .services-info h4 {
-    font-size: 3rem;
+    font-size: 2.0rem;
     font-weight: 800;
     line-height: 2;
 }
