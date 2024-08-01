@@ -14,6 +14,7 @@
     --second-bg-color: #131313;
     --text-color: white;
     --main-color: #007FAB;
+    --background: #000000
 }
 
 /* ACIMA REVISADO! */
@@ -482,6 +483,10 @@ span {
     background: var(--second-bg-color);
 }
 
+.testimonial-2 {
+    background: var(--background);
+}
+
 .testimonial-box {
     background-size: cover;
     display: flex;
@@ -523,6 +528,10 @@ span {
     gap: 1.5rem;
     color: white;
     transition: 00.4s ease-in-out;
+}
+
+.testimonial-item-2 {
+    background: var(--second-bg-color);
 }
 
 .testimonial-item:hover {
