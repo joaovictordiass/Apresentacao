@@ -425,6 +425,10 @@ span {
     color: black;
 }
 
+.services-2 {
+    background: var(--second-bg-color);
+}
+
 .services h2 {
     margin-bottom: 5rem;
     color: white;
@@ -446,6 +450,17 @@ span {
     transition: 0.4s ease-in-out;
 }
 
+.services-box-2 {
+    background-color: white;
+    height: 490px;
+    border-radius: 3rem;
+    border: 5px solid var(--main-color);
+}
+
+.box-3 {
+    height: 300px;
+}
+
 .services-box:hover {
     background: white;
     color: black;
@@ -454,6 +469,16 @@ span {
 }
 
 .services-box .services-info {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    max-height: 200px;
+    justify-content: left;
+    align-items: baseline;
+    padding: 5rem 5rem;
+}
+
+.services-box-2 .services-info {
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -475,6 +500,10 @@ span {
     max-height: 100px;
     line-height: 1.7;
     margin: auto;
+}
+
+.info-2 p{
+    font-size: 2rem;
 }
 
 /* CÓDIGO ACIMA REVISADO */
@@ -555,57 +584,12 @@ span {
 
 /* CÓDIGO ACIMA REVISADO */
 
-.contact {
-    background-color: var(--bg-color);
-}
-
-.contact h2 {
-    margin-bottom: 3rem;
-    color: white;
-}
-
-.contact form {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 3rem;
-    margin: 5rem auto;
-    text-align: center;
-}
-
-.contact form .input-box {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.contact form .input-box input,
-.contact form textarea {
-    width: 100%;
-    padding: 2.5rem;
-    font-size: 1.8rem;
-    color: var(--text-color);
-    background: var(--second-bg-color);
-    border-radius: 2rem;
-    border: 2px solid var(--main-color);
-    margin: 1.5rem 0;
-    resize: none;
-}
-
-input[type=number]::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-}
-
-.contact form .btn {
-    margin-top: 2rem;
-}
-
 .footer {
     position: relative;
     bottom: 0;
     width: 100%;
     padding: 40px 0;
-    background-color: var(--second-bg-color);
+    background-color: var(--bg-color);
 }
 
 .footer .social {
